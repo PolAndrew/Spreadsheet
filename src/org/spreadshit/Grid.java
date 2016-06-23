@@ -1,4 +1,4 @@
-package ua.spreadsheet;
+package org.spreadshit;
 
 import java.util.ArrayList;
 import java.util.HashMap;

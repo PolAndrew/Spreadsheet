@@ -1,4 +1,4 @@
-package ua.spreadsheet;
+package org.spreadshit;
 
 public class NumberCell extends Cell{
 	

@@ -1,11 +1,10 @@
-package ua.spreadsheet;
+package org.spreadshit;
 
-public class LabelCell extends Cell {
+public class ExpressionCell extends Cell {
 
 	private String data;
-	
-		
-	public LabelCell(int row, String col, String data) {
+
+	public ExpressionCell(int row, String col, String data) {
 		super(row, col);
 		this.data = data;
 	}
@@ -17,7 +16,7 @@ public class LabelCell extends Cell {
 	public void setData(String data) {
 		this.data = data;
 	}
+	
+	
 
-	
-	
 }
